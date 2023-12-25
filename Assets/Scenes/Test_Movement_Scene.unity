@@ -472,7 +472,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1001 &3782678009574220936
+--- !u!1001 &947168751
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -482,7 +482,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3460900880860405620, guid: 93bf24ee8ca154744a9382cfd9e1c912, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Character_Player
       objectReference: {fileID: 0}
     - target: {fileID: 7278937855541793109, guid: 93bf24ee8ca154744a9382cfd9e1c912, type: 3}
       propertyPath: m_PreviewTimeScale
@@ -490,11 +490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8364598626328793612, guid: 93bf24ee8ca154744a9382cfd9e1c912, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.8007362
       objectReference: {fileID: 0}
     - target: {fileID: 8364598626328793612, guid: 93bf24ee8ca154744a9382cfd9e1c912, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.0394752
       objectReference: {fileID: 0}
     - target: {fileID: 8364598626328793612, guid: 93bf24ee8ca154744a9382cfd9e1c912, type: 3}
       propertyPath: m_LocalPosition.z
@@ -539,5 +539,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 747526103}
   - {fileID: 783845556}
-  - {fileID: 3782678009574220936}
   - {fileID: 814601205}
+  - {fileID: 947168751}

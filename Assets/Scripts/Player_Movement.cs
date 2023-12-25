@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     private string currentState;
     private float horizontal;
