@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
+    private string currentState;
     private float horizontal;
     [SerializeField] private float speed = 8f;
     [SerializeField] private float jumpingPower = 16f;
+    public bool isJumping;
     private bool isFacingRight = true;
     private bool doubleJump;
+    private float MovementDetect;
 
     private bool canDash = true;
     private bool isDashing;
@@ -16,11 +19,14 @@ public class movement : MonoBehaviour
     [SerializeField] private float dashingTime = 0.2f;
     [SerializeField] private float dashingCoolDown = 1f;
 
-
+    [SerializeField] private Animator animator;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer trailRenderer;
+
+    //animation States
+    const string Jump = "jump";
 
     // Start is called before the first frame update
     void Start()
@@ -44,8 +50,11 @@ public class movement : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            animator.SetBool("isJumping", true);
             if (isGrounded() || doubleJump)
             {
+                isJumping = true;
+                
                 rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
                 doubleJump = !doubleJump;
             }
@@ -62,17 +71,23 @@ public class movement : MonoBehaviour
             StartCoroutine(Dash());
         }
 
+        if(isGrounded())
+        {
+            animator.SetBool("isJumping", false);
+        }
         
         Flip();
     }
 
     private void FixedUpdate()
     {
+        MovementDetect = Mathf.Abs(Input.GetAxisRaw("Horizontal") * speed);
         if (isDashing)
         {
             return;
         }
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        animator.SetFloat("Speed", MovementDetect);
     }
 
     private void Flip()
@@ -91,6 +106,7 @@ public class movement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
+
     private IEnumerator Dash() 
     {
         canDash = false;
@@ -105,5 +121,16 @@ public class movement : MonoBehaviour
         isDashing = false;
         yield return new WaitForSeconds(dashingCoolDown);
         canDash = true;
+    }
+
+    void ChangeAnimationState(string newState)
+    {
+        //stop the same animation from interrupting itself
+        if(currentState == newState) return;
+
+        //play animation
+        animator.Play(newState);
+
+        currentState = newState;
     }
 }
