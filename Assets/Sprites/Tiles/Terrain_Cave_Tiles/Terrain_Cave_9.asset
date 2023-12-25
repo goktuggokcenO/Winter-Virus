@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Terrain_Cave_9
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -1907537579, guid: c4148a33423e97d41aadcda4ea6f04dc, type: 3}
+  m_Sprite: {fileID: 770315344, guid: 764798263ddd8454cb6806728b882136, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

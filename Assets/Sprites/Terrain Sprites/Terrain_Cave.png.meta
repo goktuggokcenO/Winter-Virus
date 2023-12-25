@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c4148a33423e97d41aadcda4ea6f04dc
+guid: 764798263ddd8454cb6806728b882136
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 490dc04b874efed4bb327d8e6dd56bf1
-      internalID: -1072519843
+      spriteID: 26c5f291b724d2d448af772abb447ca9
+      internalID: -1223855154
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8c9622f2889bee459d1179d330ab422
-      internalID: -234454622
+      spriteID: 046ce47b5ef82814db42ac96519eb2d6
+      internalID: -207015239
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea9bca7b24aca54db9fe0afae7b693b
-      internalID: 602654333
+      spriteID: 98ed1e262c42b0a498cbd025e48cfcb8
+      internalID: -957581548
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab0315537a943f44bb2591dba17f2a7e
-      internalID: -685042440
+      spriteID: 30cd6597e66442b44a4e3168fd9bb129
+      internalID: -1016099198
       vertices: []
       indices: 
       edges: []
@@ -197,8 +197,8 @@ TextureImporter:
       name: Terrain_Cave_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 0
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fca8a3fd265d424c9fd2764e5190080
-      internalID: 225906696
+      spriteID: 0898000ca9f6d624ea55ff0f2714c9e5
+      internalID: 170306238
       vertices: []
       indices: 
       edges: []
@@ -218,8 +218,8 @@ TextureImporter:
       name: Terrain_Cave_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 32
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40c7a547fe2f18f4d9236cf27883b9b9
-      internalID: -629544803
+      spriteID: 88f02d9d4fb5cd34bbc920de83d62873
+      internalID: 1224543059
       vertices: []
       indices: 
       edges: []
@@ -239,7 +239,7 @@ TextureImporter:
       name: Terrain_Cave_6
       rect:
         serializedVersion: 2
-        x: 0
+        x: 64
         y: 96
         width: 32
         height: 32
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5f7a78d23cf02d4ca4bfe46ceacafdc
-      internalID: 565644784
+      spriteID: 3ea823dc0732872429273038e1a9667e
+      internalID: -948786213
       vertices: []
       indices: 
       edges: []
@@ -260,48 +260,6 @@ TextureImporter:
       name: Terrain_Cave_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01fd380098ccd4b40898839c6bf204c9
-      internalID: -1558198793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54ad8ae0a4bc4f8499d05981fe2fc3c4
-      internalID: 1937148977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_9
-      rect:
-        serializedVersion: 2
         x: 96
         y: 96
         width: 32
@@ -313,182 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7df0899121209fd479c46ac5fdb64a75
-      internalID: -1907537579
+      spriteID: 376627ab04e93c846b767ea05abe3a91
+      internalID: 1973528924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Terrain_Cave_10
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33b1c40364309b04c9ac4c60460b49a7
-      internalID: 258387433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_11
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65a6329ec09ec6e4e8477d71116959c4
-      internalID: 1313234245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_12
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 668abb821e6dc5f419b1f1e14e9a71a8
-      internalID: 351858062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_13
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 203a2c6d920886a44b5c1e7b6e7480b0
-      internalID: 1676248865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6df882331bc0814f92f52625331abb7
-      internalID: -715153549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_15
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 309a8be55596b5d4d979b79fdae0118f
-      internalID: 1580217286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_16
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04c65f6c829814d4db2943266e8aabdc
-      internalID: 1533684759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_17
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea6449ec4381f1f4984de5c66b691e7e
-      internalID: 250250081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_18
+      name: Terrain_Cave_8
       rect:
         serializedVersion: 2
         x: 0
@@ -502,8 +292,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdd77fef421e9de4b969c194925ed51e
-      internalID: -1322425795
+      spriteID: c9c2825640082b942af8755c535d6a81
+      internalID: -395607465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831ee622d955a2c4c94c17cc9284cbcc
+      internalID: 770315344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd80ab1c567a4b41a107838e39a71df
+      internalID: -2144761892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a26c866ea3d2f4897a7cb50ab79d93
+      internalID: 1562860196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece0d80ec451ba9449e8babbe6fc1504
+      internalID: -1763170752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb7a13c461a1044daec64c7e607e49f
+      internalID: 632130974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b71956b7e753e4ab88267b97dbe428
+      internalID: -578249131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c7cdcb364289846b9b4bc69353a3af
+      internalID: -285605329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca68472d3b66c26419ffddf38ee26f94
+      internalID: -1376210622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dd2da4c8115074d92b2e77e331d210
+      internalID: -240064600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Terrain_Cave_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c72283e8e3363045878bbaae3d197dd
+      internalID: 863814207
       vertices: []
       indices: 
       edges: []
@@ -512,384 +512,6 @@ TextureImporter:
       name: Terrain_Cave_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f221e75e9a293494cb50a43aa7736b49
-      internalID: 1654380828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_20
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bfd7e82b2d5c0240adf3860bf89c4fe
-      internalID: 722272549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_21
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dab3e4d11848b8409f1701e82165aee
-      internalID: 1913181740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_22
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e30c61e7ba1b0dd4ebab3a0a3a54464a
-      internalID: 1046612232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_23
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93a0bd2a046b42b46b8483473e5a75d2
-      internalID: 523305864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_24
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da19ae19eab58cf4bba5928b978f3de9
-      internalID: 2075726073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_25
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3bc2ea48cc77a14a928ca63e749ac4f
-      internalID: -1992402968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_26
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 447a3927163820840abf18dbf5f74680
-      internalID: 663688354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_27
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 323cdab358ce39d4fbbda8246d61e644
-      internalID: -1914392457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_28
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10a0bc6bb3fe36d44af5646800caae93
-      internalID: 1534660562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_29
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d7bd5702105b484e8eb2667b33d59eb
-      internalID: 1350664677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_30
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f5c327de4da05043a3a6e3e542d875e
-      internalID: 1789992171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_31
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27ed93c1fb4577f4892312321e009ae1
-      internalID: 560800436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_32
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a407b31001faf704082332dc0b7fea40
-      internalID: -1326605678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_33
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf35c6e74cf6c32419f690dd0c9116b6
-      internalID: -285565211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_34
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5b66832abda24f48a875f0780abca54
-      internalID: -511201496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_35
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84cb08fc104d60347b6a1ddb203c25b8
-      internalID: 652787000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_36
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 065f9e6915647c346b090de71e44b648
-      internalID: 344509230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Terrain_Cave_37
-      rect:
-        serializedVersion: 2
         x: 96
         y: 0
         width: 32
@@ -901,8 +523,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12ecc003a29e4cb44beeb72fcf0cc52a
-      internalID: 359973087
+      spriteID: 901b29711c7294247adcdb244335d5e7
+      internalID: 777984915
       vertices: []
       indices: 
       edges: []
@@ -918,44 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Terrain_Cave_0: -1072519843
-      Terrain_Cave_1: -234454622
-      Terrain_Cave_10: 258387433
-      Terrain_Cave_11: 1313234245
-      Terrain_Cave_12: 351858062
-      Terrain_Cave_13: 1676248865
-      Terrain_Cave_14: -715153549
-      Terrain_Cave_15: 1580217286
-      Terrain_Cave_16: 1533684759
-      Terrain_Cave_17: 250250081
-      Terrain_Cave_18: -1322425795
-      Terrain_Cave_19: 1654380828
-      Terrain_Cave_2: 602654333
-      Terrain_Cave_20: 722272549
-      Terrain_Cave_21: 1913181740
-      Terrain_Cave_22: 1046612232
-      Terrain_Cave_23: 523305864
-      Terrain_Cave_24: 2075726073
-      Terrain_Cave_25: -1992402968
-      Terrain_Cave_26: 663688354
-      Terrain_Cave_27: -1914392457
-      Terrain_Cave_28: 1534660562
-      Terrain_Cave_29: 1350664677
-      Terrain_Cave_3: -685042440
-      Terrain_Cave_30: 1789992171
-      Terrain_Cave_31: 560800436
-      Terrain_Cave_32: -1326605678
-      Terrain_Cave_33: -285565211
-      Terrain_Cave_34: -511201496
-      Terrain_Cave_35: 652787000
-      Terrain_Cave_36: 344509230
-      Terrain_Cave_37: 359973087
-      Terrain_Cave_4: 225906696
-      Terrain_Cave_5: -629544803
-      Terrain_Cave_6: 565644784
-      Terrain_Cave_7: -1558198793
-      Terrain_Cave_8: 1937148977
-      Terrain_Cave_9: -1907537579
+      Terrain_Cave_0: -1223855154
+      Terrain_Cave_1: -207015239
+      Terrain_Cave_10: -2144761892
+      Terrain_Cave_11: 1562860196
+      Terrain_Cave_12: -1763170752
+      Terrain_Cave_13: 632130974
+      Terrain_Cave_14: -578249131
+      Terrain_Cave_15: -285605329
+      Terrain_Cave_16: -1376210622
+      Terrain_Cave_17: -240064600
+      Terrain_Cave_18: 863814207
+      Terrain_Cave_19: 777984915
+      Terrain_Cave_2: -957581548
+      Terrain_Cave_3: -1016099198
+      Terrain_Cave_4: 170306238
+      Terrain_Cave_5: 1224543059
+      Terrain_Cave_6: -948786213
+      Terrain_Cave_7: 1973528924
+      Terrain_Cave_8: -395607465
+      Terrain_Cave_9: 770315344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
