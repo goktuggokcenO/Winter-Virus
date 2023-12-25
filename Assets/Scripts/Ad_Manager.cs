@@ -6,6 +6,13 @@ using UnityEngine;
 // Ad manager script for things related to ads
 public class AdManager : MonoBehaviour
 {
+    // Start is called before the first frame update
+    void Start()
+    {
+        // Ensure the object is initially enabled
+        gameObject.SetActive(true);
+    }
+
     // Update is called once per frame
     void Update()
     {

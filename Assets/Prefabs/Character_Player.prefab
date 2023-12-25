@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8364598626328793612}
   - component: {fileID: 2251624858257322637}
-  - component: {fileID: -8114215135354302029}
   - component: {fileID: 3248521825579824418}
   - component: {fileID: 7814575225169912433}
   - component: {fileID: 7278937855541793109}
   - component: {fileID: 7887741791945178249}
+  - component: {fileID: -8114215135354302029}
   m_Layer: 0
   m_Name: Character_Player
   m_TagString: Untagged
@@ -91,35 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-8114215135354302029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3460900880860405620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5430c2fe63cd92d42b231778a36c8a63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  jumpingPower: 5
-  isJumping: 0
-  dashingPower: 5
-  dashingTime: 0.2
-  dashingCoolDown: 1
-  animator: {fileID: 7887741791945178249}
-  rb: {fileID: 3248521825579824418}
-  groundCheck: {fileID: 7850817786700982215}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  trailRenderer: {fileID: 7278937855541793109}
-  wallCheck: {fileID: 8022573713519430205}
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 128
 --- !u!50 &3248521825579824418
 Rigidbody2D:
   serializedVersion: 4
@@ -326,6 +297,35 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8114215135354302029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3460900880860405620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5430c2fe63cd92d42b231778a36c8a63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  jumpingPower: 5
+  isJumping: 0
+  dashingPower: 5
+  dashingTime: 0.2
+  dashingCoolDown: 1
+  animator: {fileID: 7887741791945178249}
+  rb: {fileID: 3248521825579824418}
+  groundCheck: {fileID: 7850817786700982215}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  trailRenderer: {fileID: 7278937855541793109}
+  wallCheck: {fileID: 8022573713519430205}
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &4518067065073032564
 GameObject:
   m_ObjectHideFlags: 0
