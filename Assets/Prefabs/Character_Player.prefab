@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7278937855541793109}
   - component: {fileID: 7887741791945178249}
   - component: {fileID: -8114215135354302029}
+  - component: {fileID: 5863996796770547209}
   m_Layer: 0
   m_Name: Character_Player
   m_TagString: Untagged
@@ -322,10 +323,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   trailRenderer: {fileID: 7278937855541793109}
-  wallCheck: {fileID: 8022573713519430205}
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 128
+--- !u!114 &5863996796770547209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3460900880860405620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0ae53bf3416a94cb79097aac064f06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4518067065073032564
 GameObject:
   m_ObjectHideFlags: 0
