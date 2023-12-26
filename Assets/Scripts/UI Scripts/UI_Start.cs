@@ -10,6 +10,6 @@ public class Start : MonoBehaviour
     // Start game on click
     public void StartGame()
     {
-        SceneManager.LoadSceneAsync("city2");
+        SceneManager.LoadSceneAsync("Level");
     }
 }

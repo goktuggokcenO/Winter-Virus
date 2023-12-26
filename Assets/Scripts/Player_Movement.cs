@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private string currentState;
+    //private string currentState;
     private float horizontal;
     [SerializeField] private float speed = 8f;
     [SerializeField] private float jumpingPower = 16f;
@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private bool doubleJump;
     private float MovementDetect;
-
+    /*
     //for Wall Sliding
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
     private Vector2 wallJumpingPower = new Vector2(2.5f, 7f);
-
+    */
     private bool canDash = true;
     private bool isDashing;
     [SerializeField] private float dashingPower = 24f;
@@ -36,11 +36,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer trailRenderer;
-    [SerializeField] private Transform wallCheck;
-    [SerializeField] private LayerMask wallLayer;
+    //[SerializeField] private Transform wallCheck;
+    //[SerializeField] private LayerMask wallLayer;
 
     //animation States
-    const string Jump = "jump";
+    //const string Jump = "jump";
 
     // Start is called before the first frame update
     void Start()
@@ -89,7 +89,9 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("isJumping", false);
         }
-        
+
+
+        /*
         WallSlide();
         WallJump();
 
@@ -97,12 +99,14 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
+        */
+        Flip();
     }
 
     private void FixedUpdate()
     {
         MovementDetect = Mathf.Abs(Input.GetAxisRaw("Horizontal") * speed);
-        if (isDashing || isWallJumping)
+        if (isDashing)
         {
             return;
         }
@@ -126,6 +130,7 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
+    /*
     private bool isWalled()
     {
         return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
@@ -181,7 +186,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isWallJumping = false;
     }
-
+    */
 
     private IEnumerator Dash() 
     {
@@ -198,7 +203,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(dashingCoolDown);
         canDash = true;
     }
-
+    /*
     void ChangeAnimationState(string newState)
     {
         //stop the same animation from interrupting itself
@@ -209,6 +214,6 @@ public class PlayerMovement : MonoBehaviour
 
         currentState = newState;
     }
-
+    */
  
 }
