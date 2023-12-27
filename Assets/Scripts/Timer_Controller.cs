@@ -10,6 +10,8 @@ public class TimerController : MonoBehaviour
     public static TimerController instance;
     public TextMeshProUGUI timeCounter;
 
+    public static TimeSpan bestTime = TimeSpan.MaxValue;
+    private TimeSpan currentTime;
     private TimeSpan timePlaying;
     private bool timerGoing;
 
@@ -39,6 +41,10 @@ public class TimerController : MonoBehaviour
     public void EndTimer()
     {
         timerGoing = false;
+        currentTime = timePlaying;
+        compareTime();
+        String timePlayingStr = "Best Time: " + bestTime.ToString("mm':'ss'.'ff") + "\nCurrent Time: " + currentTime.ToString("mm':'ss'.'ff");
+        timeCounter.text = timePlayingStr;
     }
 
     private IEnumerator UpdateTimer()
@@ -51,6 +57,15 @@ public class TimerController : MonoBehaviour
             timeCounter.text = timePlayingStr;
 
             yield return null;   
+        }
+    }
+
+    private void compareTime()
+    {
+
+        if(TimeSpan.Compare(currentTime, bestTime) == -1)
+        {
+            bestTime = currentTime;
         }
     }
 }
